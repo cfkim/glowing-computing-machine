@@ -90,9 +90,10 @@
 /* PROJECTS SECTION */  
 .projects {
     background: #f2f2f2;
-    height: 250vh;
+    height: 200vh;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -203,7 +204,7 @@
 
 .skills-content {
     height: 30%;
-    width: 60%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -235,25 +236,63 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .education-title {
     font-size: 50px;
     margin-bottom: 4rem;
+    margin-top: 10rem;
 }
 
 .education-card {
-    height:100%;
-    width: 60%;
+    height:50%;
+    width: 50%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightgrey;
+    border-radius: 5px;
+}
+
+.education-image-box {
+    background-size: cover; 
+    background-position: center center;
+    width: 70%;
+    height: 50%;
+    z-index: 999;
 }
 
 .education-card-img {
     width: 50%;
+    height: 100%;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .education-info {
-    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.education-info-name {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.education-info-description {
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.education-info-bullets li {
+    padding-top: 10px;
+}
+
+ul, ul {
+    margin-left: 15px;
 }
