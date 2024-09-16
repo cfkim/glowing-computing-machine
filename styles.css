@@ -286,8 +286,8 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: lightgrey;
-    border-radius: 5px;
+    background: white;
+    border-radius: 20px;
 }
 
 .education-image-box {
@@ -328,7 +328,7 @@ a:hover {
 }
 
 ul, ul {
-    margin-left: 15px;
+    margin-left: 20px;
 }
 
 /* TESTIMONIAL SECTION */
