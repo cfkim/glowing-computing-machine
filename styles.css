@@ -37,6 +37,11 @@
     width: 80%;
 }
 
+.navbar-item:hover {
+    transition: 0.3s;
+    border-bottom: solid;
+}
+
 a {
     color: darkgrey;
     text-decoration: none;
