@@ -21,7 +21,7 @@
 .navbar-panel {
     background: white;
     height: 64px;
-    width: 50%;
+    width: 40%;
     border-radius: 50px;
     display: flex;
     align-items: center;
@@ -66,6 +66,7 @@ a:hover {
 }
 
 .navbar-btn button:hover{
+    border-width: 2px;
     box-shadow: 5px 5px 2px 1px rgba(168, 169, 171, 0.8);
     border-color: black;
     color: black;
@@ -149,10 +150,11 @@ a:hover {
 }
 
 .image-box{
+    box-shadow: 75px -55px black;
     background-size: cover; 
     background-position: center center;
     width: 50%;
-    height: 50%;
+    height: 60%;
 }
 
 .projects-card-info{
