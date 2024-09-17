@@ -1,4 +1,5 @@
 # My Personal Website (v2)
+Website is live here!: https://cfkim.github.io/portfolio.github.io/
 
 My Personal Website is a clean, organized, and straightforward website to showcase my projects and experience as a mobile developer.
 
